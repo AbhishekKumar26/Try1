@@ -26,7 +26,7 @@ steps:
     command: 'restore'
     restoreSolution: '**/*.sln'
     feedsToUse: 'config'
-    nugetConfigPath: '\Src\MultiSafepay\packages.config'
+    nugetConfigPath: '**/MultiSafepay/packages.config'
 
 
 - task: VSBuild@1
